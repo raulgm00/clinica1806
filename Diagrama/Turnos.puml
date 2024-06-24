@@ -1,0 +1,54 @@
+@startuml
+
+class TurnoController{
+- turnoService: ITurnoServices
++ TurnoController(turnoService:ITurnoServices)
+
++ registrarTurno(Turno): Turno
++ buscarTurnoPorId(id): Turno
++ buscarTodosTurno(Turno): Turno
++ actualizarTurno(Turno): String
++ eliinarTurno(id): String
+
+}
+
+interface ITurnoServices {
++ registrarTurno(Turno): Turno
++ buscarTurnoPorId(id): Turno
++ registrarTurno(Turno): Turno
++ actualizarTurno(Turno): Turno
++ eliinarTurno(id): Turno
+}
+
+class TurnoService {
+- turnoDAO : IDAO<Turno>
+- pacienteDAO : IDAO<Paciente>
+- odontologoDAO : IDAO<Odontologo>
++ registrarTurno(Turno): Turno
++ buscarTurnoPorId(id): Turno
++ registrarTurno(Turno): Turno
++ actualizarTurno(Turno): Turno
++ eliinarTurno(id): Turno
+}
+
+interface DAO <T>{
++ registrar (T t): T
++ buscarPorId(Integer id):T
++ buscarTodos():List<T>
++ actualizar(T t):void
++ eliminar(Integer id):void
+}
+
+class TurnoDAO{
+
+}
+
+class H2Connection{
+}
+
+TurnoController --|>  ITurnoServices
+ITurnoServices --|> TurnoService
+TurnoService --|> DAO
+DAO --|> TurnoDAO
+TurnoDAO --|> H2Connection
+@enduml

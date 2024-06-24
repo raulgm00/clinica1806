@@ -1,0 +1,25 @@
+#Que se va entregar
+
+
+1) Fronted
+    - Solo Odontologos [ORM - JPA [Hibernate] - Mapeo Identidades Repository] [Excepciones]
+        - Registar
+        - Editar
+        - Borrar
+        - Crear
+
+2) Back:
+    - API : [GET / POST / PUT / DELETE]
+        -Odontologos
+        -Pacientes
+        -Turnos
+
+        Capa de entidades de negocio -> Services
+        Capa de acceso a datos       -> Repository
+        Capa de datos                -> Base de Datos H2
+        Capa de presentacio          -> Solo Vista de Odontologos
+
+
+        HQL
+        Excepciones
+
