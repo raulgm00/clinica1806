@@ -53,6 +53,7 @@ public class OdontologoService implements IOdontologoService {
     @Override
     public Optional<Odontologo> buscarOdontologoPorId(Integer id) throws ResourcesNotFoundException{
         // Optional, tipo de dato que guarda un dato si se que lo encuentra y un null su no lo encuentra
+        // Optional es un tipo de dato de JPA
         Optional<Odontologo> optionalOdontologo = odontologoRepository.findById(id);
         if(optionalOdontologo.isPresent()) {
             LOGGER.info("Odontologo encontrado con id : " + id);

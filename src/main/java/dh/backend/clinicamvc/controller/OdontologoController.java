@@ -24,11 +24,11 @@ public class OdontologoController {
     }
 
     /*
-    * http://localhost:8080/odontologos
-    * */
+     * http://localhost:8080/odontologos
+     * */
     @PostMapping
-    public ResponseEntity<Odontologo>  registrarOdontologo(@RequestBody Odontologo odontologo) throws BadRequestException {
-        Odontologo OdontologoARetornar =  odontologoService.registrarOdontologo(odontologo);
+    public ResponseEntity<Odontologo> registrarOdontologo(@RequestBody Odontologo odontologo) throws BadRequestException {
+        Odontologo OdontologoARetornar = odontologoService.registrarOdontologo(odontologo);
         return ResponseEntity.status(HttpStatus.CREATED).body(OdontologoARetornar);
     }
 
@@ -36,14 +36,14 @@ public class OdontologoController {
      * http://localhost:8080/odontologos
      * */
     @GetMapping
-    public ResponseEntity<List<Odontologo>>  buscarTodos() throws ResourcesNotFoundException {
+    public ResponseEntity<List<Odontologo>> buscarTodos() throws ResourcesNotFoundException {
         return ResponseEntity.ok(odontologoService.buscarTodosLosOdontologos());
     }
 
 
     /*
-    * http://localhost:8080/odontologos/3
-    * */
+     * http://localhost:8080/odontologos/3
+     * */
     @GetMapping("/{id}")
     public ResponseEntity<Odontologo> buscarOdontologoPorId(@PathVariable Integer id) throws ResourcesNotFoundException {
         Optional<Odontologo> optionalOdontologoARetornar = odontologoService.buscarOdontologoPorId(id);
@@ -51,21 +51,21 @@ public class OdontologoController {
     }
 
     /*
-    * http://localhost:8080/odontologos
-    * */
+     * http://localhost:8080/odontologos
+     * */
     @PutMapping(produces = "application/json")
-    public ResponseEntity<String>  actualizarOdontologo(@RequestBody Odontologo Odontologo) throws ResourcesNotFoundException, BadRequestException {
-         odontologoService.actualizarOdontologo(Odontologo);
-         return  ResponseEntity.ok("{\"messages\":  \"Odontologo actualizado\"}");
+    public ResponseEntity<String> actualizarOdontologo(@RequestBody Odontologo Odontologo) throws ResourcesNotFoundException, BadRequestException {
+        odontologoService.actualizarOdontologo(Odontologo);
+        return ResponseEntity.ok("{\"messages\":  \"Odontologo actualizado\"}");
     }
 
     /*
      * http://localhost:8080/odontologos/3
      * */
     @DeleteMapping(value = "/{id}", produces = "application/json")
-    public ResponseEntity<String>  borrarOdontologo(@PathVariable Integer id) throws ResourcesNotFoundException {
-            odontologoService.eliminarOdontologo(id);
-            return ResponseEntity.ok("{\"messages\":  \"Odontologo eliminado\"}");
+    public ResponseEntity<String> borrarOdontologo(@PathVariable Integer id) throws ResourcesNotFoundException {
+        odontologoService.eliminarOdontologo(id);
+        return ResponseEntity.ok("{\"messages\":  \"Odontologo eliminado\"}");
 
     }
 
@@ -76,7 +76,7 @@ public class OdontologoController {
     }
 
     @GetMapping("/nombre/{nombre}")
-    public  ResponseEntity <List<Odontologo>> buscarOdontologoPorNombre(@PathVariable String nombre) throws ResourcesNotFoundException {
+    public ResponseEntity<List<Odontologo>> buscarOdontologoPorNombre(@PathVariable String nombre) throws ResourcesNotFoundException {
         List<Odontologo> listaOdontologos = odontologoService.bucarPorNombre(nombre);
         return ResponseEntity.ok(listaOdontologos);
     }
@@ -84,7 +84,7 @@ public class OdontologoController {
     @PutMapping("/{id_odontologo}/especialidad/{id_especialidad}")
     public ResponseEntity<Odontologo> agregarEspecialidadAOdontologo(@PathVariable Integer id_odontologo,
                                                                      @PathVariable Integer id_especialidad) throws ResourcesNotFoundException, BadRequestException {
-        return ResponseEntity.ok(odontologoService.agregarEspecialidad(id_odontologo,id_especialidad));
+        return ResponseEntity.ok(odontologoService.agregarEspecialidad(id_odontologo, id_especialidad));
     }
 
 

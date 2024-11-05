@@ -1,2 +1,5 @@
 dh\backend\clinicamvc\service\test\PacienteServiceTest.class
+dh\backend\clinicamvc\service\test\OdontologoServiceTest.class
+dh\backend\clinicamvc\service\test\TurnoServiceTest.class
 dh\backend\clinicamvc\ClinicaMvcApplicationTests.class
+dh\backend\clinicamvc\controller\OdontologoControllerTest.class

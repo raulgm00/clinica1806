@@ -4,7 +4,78 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1578d1cf-a36a-4de9-ab7c-ca39583a2bbf" name="Changes" comment="" />
+    <list default="true" id="1578d1cf-a36a-4de9-ab7c-ca39583a2bbf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/auth/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/auth/AuthenticationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/auth/AuthenticationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/auth/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/auth/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/configuration/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/configuration/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/configuration/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/configuration/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/openapi/OpenApiConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/repository/IUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dh/backend/clinicamvc/controller/OdontologoControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/configuration/ModelMapperConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/configuration/ModelMapperConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/configuration/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/configuration/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/controller/OdontologoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/controller/OdontologoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/service/impl/OdontologoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/service/impl/OdontologoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dh/backend/clinicamvc/service/test/TurnoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dh/backend/clinicamvc/service/test/TurnoServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Clinica-MVC-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Clinica-MVC-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/ClinicaMvcApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/ClinicaMvcApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/configuration/ModelMapperConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/configuration/ModelMapperConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/configuration/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/configuration/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/controller/EspecialidadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/controller/EspecialidadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/controller/OdontologoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/controller/OdontologoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/controller/PacienteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/controller/PacienteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/controller/TurnoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/controller/TurnoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/controller/VistaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/controller/VistaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/dto/request/TurnoRequestDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/dto/request/TurnoRequestDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/dto/response/OdontologoResponseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/dto/response/OdontologoResponseDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/dto/response/PacienteResponseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/dto/response/PacienteResponseDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/dto/response/TurnoResponseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/dto/response/TurnoResponseDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/entity/Domicilio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/entity/Domicilio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/entity/Especialidad.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/entity/Especialidad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/entity/Odontologo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/entity/Odontologo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/entity/Paciente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/entity/Paciente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/entity/Turno.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/entity/Turno.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/exception/BadRequestException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/exception/BadRequestException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/exception/GlobalException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/exception/GlobalException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/exception/ResourcesNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/exception/ResourcesNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/repository/IEspecialidadesRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/repository/IEspecialidadesRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/repository/IOdontologoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/repository/IOdontologoRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/repository/IPacienteRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/repository/IPacienteRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/repository/ITurnoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/repository/ITurnoRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/IEspecialidadService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/IEspecialidadService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/IOdontologoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/IOdontologoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/IPacienteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/IPacienteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/ITurnoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/ITurnoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/impl/EspecialidadService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/impl/EspecialidadService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/impl/OdontologoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/impl/OdontologoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/impl/PacienteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/impl/PacienteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/impl/TurnoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/impl/TurnoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-dh.backend.clinicamvc.ClinicaMvcApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-dh.backend.clinicamvc.ClinicaMvcApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-dh.backend.clinicamvc.service.test.PacienteServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-dh.backend.clinicamvc.service.test.PacienteServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/dh.backend.clinicamvc.ClinicaMvcApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/dh.backend.clinicamvc.ClinicaMvcApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/dh.backend.clinicamvc.service.test.PacienteServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/dh.backend.clinicamvc.service.test.PacienteServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dh/backend/clinicamvc/service/test/OdontologoServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dh/backend/clinicamvc/service/test/OdontologoServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dh/backend/clinicamvc/service/test/PacienteServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dh/backend/clinicamvc/service/test/PacienteServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dh/backend/clinicamvc/service/test/TurnoServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dh/backend/clinicamvc/service/test/TurnoServiceTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,18 +86,16 @@
       <list>
         <option value="HTML File" />
         <option value="UML Sequence" />
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
         <option value="Interface" />
+        <option value="Dockerfile" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="JUnit" name="TurnoServiceTest.testTurnoGuardado" />
-    </enabled-run-configurations>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
@@ -41,30 +110,46 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2h7a76oUDpxzYGO3sv6hOh9xePX" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "DefaultPlantUmlFileTemplate": "UML Sequence",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Cursos/DH-Backend-I/Ejericicios/Clase-21-MySQL/Clinica-MVC",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Sequence&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Cursos/DH-Backend-I/Ejericicios/Clase-21-MySQL/Clinica-MVC&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.27931035&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;yaml&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dh.backend.clinicamvc.auth" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Cursos\DH-Backend-I\Ejericicios\Clase-20-JPA-Hibernate\Clinica-MVC\src\main\java\dh\backend\clinicamvc\entity" />
       <recent name="C:\Cursos\DH-Backend-I\Ejericicios\Clase-20-Clinica-DTO\Clinica-MVC\src\main\resources\static" />
@@ -75,8 +160,15 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Cursos\DH-Backend-I\Ejericicios\Clase-20-Clinica-DTO\Clinica-MVC\src\main\resources\static" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="dh.backend.clinicamvc.service.impl" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="dh.backend.clinicamvc.controller" />
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="dh.backend.clinicamvc.service.test" />
@@ -103,81 +195,97 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OdontologoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OdontologoControllerTest.noObtenerOdontologo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Clinica-MVC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dh.backend.clinicamvc.service.test.*" />
+          <option name="PATTERN" value="dh.backend.clinicamvc.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dh.backend.clinicamvc.service.test" />
-      <option name="MAIN_CLASS_NAME" value="dh.backend.clinicamvc.service.test.OdontologoServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PacienteServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Clinica-MVC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dh.backend.clinicamvc.service.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dh.backend.clinicamvc.service.test" />
-      <option name="MAIN_CLASS_NAME" value="dh.backend.clinicamvc.service.test.PacienteServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TurnoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Clinica-MVC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dh.backend.clinicamvc.service.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dh.backend.clinicamvc.service.test" />
-      <option name="MAIN_CLASS_NAME" value="dh.backend.clinicamvc.service.test.TurnoServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TurnoServiceTest.testTurnoGuardado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Clinica-MVC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dh.backend.clinicamvc.service.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dh.backend.clinicamvc.service.test" />
-      <option name="MAIN_CLASS_NAME" value="dh.backend.clinicamvc.service.test.TurnoServiceTest" />
-      <option name="METHOD_NAME" value="testTurnoGuardado" />
+      <option name="PACKAGE_NAME" value="dh.backend.clinicamvc.controller" />
+      <option name="MAIN_CLASS_NAME" value="dh.backend.clinicamvc.controller.OdontologoControllerTest" />
+      <option name="METHOD_NAME" value="noObtenerOdontologo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OdontologoControllerTest.obtenerOdontologo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Clinica-MVC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dh.backend.clinicamvc.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dh.backend.clinicamvc.controller" />
+      <option name="MAIN_CLASS_NAME" value="dh.backend.clinicamvc.controller.OdontologoControllerTest" />
+      <option name="METHOD_NAME" value="obtenerOdontologo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OdontologoControllerTest.registrarOdontologo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Clinica-MVC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dh.backend.clinicamvc.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dh.backend.clinicamvc.controller" />
+      <option name="MAIN_CLASS_NAME" value="dh.backend.clinicamvc.controller.OdontologoControllerTest" />
+      <option name="METHOD_NAME" value="registrarOdontologo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Clinica-MVC [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.ClinicaMvcApplication" />
-      <item itemvalue="JUnit.OdontologoServiceTest" />
-      <item itemvalue="JUnit.PacienteServiceTest" />
-      <item itemvalue="JUnit.TurnoServiceTest" />
-      <item itemvalue="JUnit.TurnoServiceTest.testTurnoGuardado" />
+      <item itemvalue="JUnit.OdontologoControllerTest.noObtenerOdontologo" />
+      <item itemvalue="JUnit.OdontologoControllerTest.obtenerOdontologo" />
+      <item itemvalue="JUnit.OdontologoControllerTest.registrarOdontologo" />
+      <item itemvalue="Maven.Clinica-MVC [install]" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ClinicaMvcApplication" />
-        <item itemvalue="JUnit.OdontologoServiceTest" />
-        <item itemvalue="JUnit.TurnoServiceTest.testTurnoGuardado" />
-        <item itemvalue="JUnit.PacienteServiceTest" />
-        <item itemvalue="JUnit.TurnoServiceTest" />
+        <item itemvalue="JUnit.OdontologoControllerTest.registrarOdontologo" />
+        <item itemvalue="JUnit.OdontologoControllerTest.noObtenerOdontologo" />
+        <item itemvalue="JUnit.OdontologoControllerTest.obtenerOdontologo" />
+        <item itemvalue="Maven.Clinica-MVC [install]" />
       </list>
     </recent_temporary>
   </component>
@@ -191,6 +299,20 @@
       <updated>1716947399431</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.security:spring-security-core" />
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.validation:jakarta.validation-api" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.thymeleaf:thymeleaf" />
+    <option featureType="dependencySupport" implementationName="executable:terraform" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -259,6 +381,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/dh/backend/clinicamvc/controller/OdontologoControllerTest.java</url>
+          <line>45</line>
+          <properties class="dh.backend.clinicamvc.controller.OdontologoControllerTest" method="noObtenerOdontologo">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/dao/impl/DomicilioDaoH2.java</url>

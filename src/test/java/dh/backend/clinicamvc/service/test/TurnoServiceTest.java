@@ -9,6 +9,7 @@ import dh.backend.clinicamvc.entity.Domicilio;
 import dh.backend.clinicamvc.entity.Odontologo;
 import dh.backend.clinicamvc.entity.Paciente;
 import dh.backend.clinicamvc.entity.Turno;
+import dh.backend.clinicamvc.exception.ResourcesNotFoundException;
 import dh.backend.clinicamvc.repository.IOdontologoRepository;
 import dh.backend.clinicamvc.service.impl.OdontologoService;
 import dh.backend.clinicamvc.service.impl.PacienteService;
@@ -102,7 +103,7 @@ class TurnoServiceTest {
 
     @Test
     @DisplayName("Testear que un turno existe respecto a un ID")
-    void testTurnoPorID(){
+    void testTurnoPorID() throws ResourcesNotFoundException {
         Integer id = 1;
         TurnoResponseDto turnoEncontrado = turnoService.buscarTurnoPorId(id);
         assertEquals(id,turnoEncontrado.getId());
@@ -112,7 +113,7 @@ class TurnoServiceTest {
 
     @Test
     @DisplayName("Testear busqueda de todos los pacientes")
-    void testTodosTurnos(){
+    void testTodosTurnos() throws ResourcesNotFoundException {
         List<TurnoResponseDto> listaTurnos = turnoService.buscarTodosLosTurnos();
         assertTrue(listaTurnos.size() != 0 );
     }
