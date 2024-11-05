@@ -5,76 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1578d1cf-a36a-4de9-ab7c-ca39583a2bbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/auth/AuthenticationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/auth/AuthenticationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/auth/AuthenticationResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/auth/AuthenticationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/auth/RegisterRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/configuration/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/configuration/JwtAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/configuration/JwtService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/configuration/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/openapi/OpenApiConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/repository/IUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dh/backend/clinicamvc/controller/OdontologoControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/configuration/ModelMapperConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/configuration/ModelMapperConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/configuration/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/configuration/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/controller/OdontologoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/controller/OdontologoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/service/impl/OdontologoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dh/backend/clinicamvc/service/impl/OdontologoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dh/backend/clinicamvc/service/test/TurnoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dh/backend/clinicamvc/service/test/TurnoServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Clinica-MVC-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Clinica-MVC-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/ClinicaMvcApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/ClinicaMvcApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/configuration/ModelMapperConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/configuration/ModelMapperConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/configuration/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/configuration/WebConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/controller/EspecialidadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/controller/EspecialidadController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/controller/OdontologoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/controller/OdontologoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/controller/PacienteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/controller/PacienteController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/controller/TurnoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/controller/TurnoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/controller/VistaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/controller/VistaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/dto/request/TurnoRequestDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/dto/request/TurnoRequestDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/dto/response/OdontologoResponseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/dto/response/OdontologoResponseDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/dto/response/PacienteResponseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/dto/response/PacienteResponseDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/dto/response/TurnoResponseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/dto/response/TurnoResponseDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/entity/Domicilio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/entity/Domicilio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/entity/Especialidad.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/entity/Especialidad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/entity/Odontologo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/entity/Odontologo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/entity/Paciente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/entity/Paciente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/entity/Turno.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/entity/Turno.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/exception/BadRequestException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/exception/BadRequestException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/exception/GlobalException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/exception/GlobalException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/exception/ResourcesNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/exception/ResourcesNotFoundException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/repository/IEspecialidadesRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/repository/IEspecialidadesRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/repository/IOdontologoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/repository/IOdontologoRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/repository/IPacienteRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/repository/IPacienteRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/repository/ITurnoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/repository/ITurnoRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/IEspecialidadService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/IEspecialidadService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/IOdontologoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/IOdontologoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/IPacienteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/IPacienteService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/ITurnoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/ITurnoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/impl/EspecialidadService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/impl/EspecialidadService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/impl/OdontologoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/impl/OdontologoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/impl/PacienteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/impl/PacienteService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/impl/TurnoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dh/backend/clinicamvc/service/impl/TurnoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-dh.backend.clinicamvc.ClinicaMvcApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-dh.backend.clinicamvc.ClinicaMvcApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-dh.backend.clinicamvc.service.test.PacienteServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-dh.backend.clinicamvc.service.test.PacienteServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/dh.backend.clinicamvc.ClinicaMvcApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/dh.backend.clinicamvc.ClinicaMvcApplicationTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/dh.backend.clinicamvc.service.test.PacienteServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/dh.backend.clinicamvc.service.test.PacienteServiceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dh/backend/clinicamvc/service/test/OdontologoServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dh/backend/clinicamvc/service/test/OdontologoServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dh/backend/clinicamvc/service/test/PacienteServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dh/backend/clinicamvc/service/test/PacienteServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dh/backend/clinicamvc/service/test/TurnoServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dh/backend/clinicamvc/service/test/TurnoServiceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
